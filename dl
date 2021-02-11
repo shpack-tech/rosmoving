@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500&display=swap" rel="stylesheet">    
+    <script src="https://cdn.plrjs.com/player/d31z43k175kn4/3skei1stxiv1.js" type="text/javascript"></script>
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/owl.theme.default.css">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.css">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+    <link rel="shortcut icon" href="icons/favicon.ico" type="image/x-icon">
+    <title>Росмувинг</title>
+</head>
+<body>
+    <div class="content">
+        <div class="header">
+            <div class="head-container">
+                    <div class="logo">
+                        <div class="big-logo">РОСМУВИНГ</div>
+                        <div class="small-logo">Перевозим под ключ</div>
+                    </div>
+                    <div class="navigation">
+                        <ul>
+                            <li class="nav-item"><a href="#Главная">Главная</a></li>
+                            <li class="nav-item"><a href="#Преимущества">Преимущества</a></li>
+                            <li class="nav-item"><a href="#Стоимость">Стоимость</a></li>
+                            <li class="nav-item"><a href="#Услуги">Услуги</a></li>
+                            <li class="nav-item"><a href="#Отзывы">Отзывы</a></li>
+                            <li class="nav-item"><a href="#Контакты">Контакты</a></li>
+                        </ul>
+                    </div>
+                    <div class="msg-icons">
+                        <ul>
+                            <li class="icons-item" id="whatsapp"></li>
+                            <li class="icons-item" id="viber"></li>
+                            <li class="icons-item" id="telegram"></li>
+                            <li class="icons-item" id="vk"></li>
+                        </ul>
+                    </div>
+                    <div class="ordercall">
+                        <a href="tel: +79039032308" id="phone">
+                            <div class="phone">+7 903 903 2308</div>
+                            <div class="act-order">Заказать звонок</div>
+                        </a>
+                    </div>
+            </div>
+        </div>
+        <div class="body">
+            <div class="first-block" id="Главная">
+                <div class="mainwrap">
+                    <div class="fb-subwrap">
+                        <div class="fb-container-left">
+                            <div class="first-block-title">
+                                <p>Организуем <span id="fb-title">квартирный</span> переезд по России</p>
+                                <p>за 3 дня</p>
+                            </div>
+                            <ul class="services">
+                                <li class="service">Перевозим домашние вещи и мебель от двери до двери</li>
+                                <li class="service">Сами оформляем все необходимые документы для провоза</li>
+                                <li class="service">Официальный договор и чек на оплату услуг</li>
+                                <li class="service">Пломбируем автомобиль, доступ в кузов только у вас</li>
+                                <li class="service">Работаем на рынке с 2013 года</li>
+                            </ul>
+                            <a href="#Стоимость"><div class="learn-price">Узнать стоимость переезда</div></a>
+                         </div>
+                         <div class="fb-container-right">
+                             <img id="load" src="img/gruz.png" alt="">
+                         </div>
+                    </div>
+                </div>
+            </div>
+            <div class="second-block" id="Преимущества">
+                <div class="mainwrap">
+                    <div class="sb-subwrap">
+                        <div class="sb-title">Почему с нами удобно работать?</div>
+                        <div class="sb-flex-elements">
+                            <div class="sb-flex-element" id="b01">
+                                <div class="sbf-img"><img src="img/btrack.png" alt=""></div>
+                                <div class="sbf-text">
+                                    <p class="sbf-text-title">Большой автопарк</p>
+                                    <p class="sbf-text-p">Мы подберем вам автомобиль
+                                        исходя из объема ваших вещей
+                                        и мебели.</p>
+                                </div>
+                            </div>
+                            <div class="sb-flex-element" id="b02">
+                                <div class="sbf-img"><img src="img/sheet.png" alt=""></div>
+                                <div class="sbf-text">
+                                    <p class="sbf-text-title">Официальный договор</p>
+                                    <p class="sbf-text-p">Мы заключаем официальный
+                                        договор, что гарантирует безопасность</p>
+                                </div>
+                            </div>                            
+                            <div class="sb-flex-element" id="b03">
+                                <div class="sbf-img"><img src="img/box.png" alt=""></div>
+                                <div class="sbf-text">
+                                    <p class="sbf-text-title">Помогаем с упаковкой мебели</p>
+                                    <p class="sbf-text-p">Мы предоставим вам грузчиков, которые
+                                        помогут с погрузкой/разгрузкой мебели</p>
+                                </div>
+                            </div>                            
+                            <div class="sb-flex-element" id="b04">
+                                <div class="sbf-img"><img src="img/barn.png" alt=""></div>
+                                <div class="sbf-text">
+                                    <p class="sbf-text-title">Предоставляем склады</p>
+                                    <p class="sbf-text-p">Для временного хранения мебели
+                                        и вещей по всей России</p>
+                                </div>
+                            </div>                            
+                            <div class="sb-flex-element" id="b05">
+                                <div class="sbf-img"><img src="img/gps.png" alt=""></div>
+                                <div class="sbf-text">
+                                    <p class="sbf-text-title">Отслеживание груза</p>
+                                    <p class="sbf-text-p">У вас есть возможность отслеживать
+                                        местонахождение машины онлайн</p>
+                                </div>
+                            </div>                            
+                            <div class="sb-flex-element" id="b06">
+                                <div class="sbf-img"><img src="img/bank.png" alt=""></div>
+                                <div class="sbf-text">
+                                    <p class="sbf-text-title">Оплата после прибытия</p>
+                                    <p class="sbf-text-p">Оплата только после прибытия
+                                        и разгрузки автомобиля</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="third-block" id="Стоимость">
+                <div class="mainwrap">
+                    <div class="tb-subwrap">
+                        <div class="tb-title">Рассчитайте стоимость переезда
+                            прямо сейчас, ответив на 3 вопроса</div>
+                        <div class="questions-wrap">
+                            <div class="questions">
+                                <div class="question">
+                                    <div class="line line-1"></div>
+                                    <div class="fields">
+                                        <div class="single-inp">
+                                            <p>Из какого города вы переезжаете?</p>
+                                            <input type="text" name="" id="from" placeholder="Москва">
+                                        </div>
+                                        <div class="single-inp">
+                                            <p>В какой город вы переезжаете?</p>
+                                            <input type="text" name="" id="where" placeholder="Новосибирск">
+                                        </div>
+                                        <div class="learn-price" id="question1">Следующий вопрос</div>
+                                    </div>
+                                </div>
+                                <div class="question">
+                                    <div class="line line-2"></div>
+                                    <div class="fields">
+                                        <div class="single-inp">
+                                            <p>Укажите объем груза</p>
+                                            <input type="number" name="" id="volume" placeholder="0">
+                                        </div>
+                                        <div class="single-inp">
+                                            <p>Укажите вес груза</p>
+                                            <input type="number" name="" id="weight" placeholder="0">
+                                        </div>
+                                        <div class="learn-price" id="question2">Следующий вопрос</div>
+                                    </div>
+                                </div>
+                                <div class="question">
+                                    <div class="line  line-3"></div>
+                                    <div class="fields">
+                                        <div class="single-inp">
+                                            <p>Укажите ваше имя</p>
+                                            <input type="text" name="" id="name" placeholder="Павел">
+                                        </div>
+                                        <div class="single-inp">
+                                            <p>Укажите ваш номер телефона</p>
+                                            <input type="text" name="" id="mphone" placeholder="+7 800 555 35 35">
+                                        </div>
+                                        <div class="learn-price" id="question3">Следующий вопрос</div>
+                                    </div>
+                                </div>
+                                <div class="question">
+                                    <div class="line line-3"></div>
+                                    <h1 class="thank">Спасибо за ответы!</h1>
+                                    <p class="thank-p">Скоро с вами свяжется наш специалист, а пока рекомендуем посмотеть видео</p>
+                                    <div id="player"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="fourth-block" id="Услуги">
+                <div class="mainwrap">
+                    <div class="fb-title">Наши услуги для частных лиц и компаний</div>
+                    <div class="fb-flex-element">
+                        <div class="fb-flex-item">
+                            <div class="fb-fcontent fb1">Квартирный переезд
+                                с грузчиками по Россиии</div>
+                            <div class="learn-price fb">Подробнее</div>
+                        </div>
+                        <div class="fb-flex-item">
+                            <div class="fb-fcontent fb2">Домашний переезд
+                                по России</div>
+                            <div class="learn-price fb">Подробнее</div>
+                        </div>
+                        <div class="fb-flex-item">
+                            <div class="fb-fcontent fb3">Переезды военнослужащих
+                                по России</div>
+                            <div class="learn-price fb">Подробнее</div>
+                        </div>
+                        <div class="fb-flex-item">
+                            <div class="fb-fcontent fb4">Временное хранение
+                                при переезде</div>
+                            <div class="learn-price fb">Подробнее</div>
+                        </div>
+                        <div class="fb-flex-item">
+                            <div class="fb-fcontent fb5">Семейный переезд</div>
+                            <div class="learn-price fb">Подробнее</div>
+                        </div>
+                        <div class="fb-flex-item">
+                            <div class="fb-fcontent fb6">Переезды пенсионеров</div>
+                            <div class="learn-price fb">Подробнее</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="fifth-block" id="Отзывы">
+                <div class="mainwrap">
+                    <div class="fifth-title">Что говорят наши клиенты?</div>
+                    <div class="selectors">
+                        <div class="fb-review fb-review-acrive">Текстовые отзывы</div>
+                        <div class="fb-review">Видео отзывы</div>
+                    </div>
+                    <div class="rev-slider">
+                        <div class="swiper-container">
+                            <!-- Additional required wrapper -->
+                            <div class="swiper-wrapper">
+                              <!-- Slides -->
+                              <div class="swiper-slide"><img src="img/rev1.png" alt=""></div>
+                              <div class="swiper-slide"><img src="img/rev2.png" alt=""></div>
+                              <div class="swiper-slide"><img src="img/rev3.png" alt=""></div>
+
+                            </div>
+                            
+                          </div>
+                          <div class="swiper-button-prev-made"></div>
+                            <div class="swiper-button-next-made"></div>
+                        <!-- <div class="arrow-prev tback"></div>
+                        <div class="rev-wrap">
+                            <div class="rev-wrap-row">
+                                <div class="rev-item"><img src="img/rev2.png" alt=""></div>
+                                <div class="rev-item" id="clone1"><img src="img/rev3.png" alt=""></div>
+                                <div class="rev-item"><img src="img/rev1.png" alt=""></div>
+                                <div class="rev-item"><img src="img/rev2.png" alt=""></div>
+                                <div class="rev-item"><img src="img/rev3.png" alt=""></div>
+                                <div class="rev-item"><img src="img/rev1.png" alt=""></div>
+                                <div class="rev-item" ><img src="img/rev2.png" alt=""></div>
+                                <div class="rev-item" id="clone2"><img src="img/rev3.png" alt=""></div>
+                                <div class="rev-item"><img src="img/rev1.png" alt=""></div>
+                            </div>
+                        </div>
+                        <div class="arrow-next tfow"></div> -->
+                    </div>
+                    <div class="video-rev hidden">
+                        <div class="owl-carousel v-rew-wr">
+                            <div class="item-video v-rew"><iframe width="560" height="315" src="https://www.youtube.com/embed/KlZYgZQgZCw" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+                            <div class="item-video v-rew"><iframe width="560" height="315" src="https://www.youtube.com/embed/wj2bJc0nAbQ" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+                            <div class="item-video v-rew"><iframe width="560" height="315" src="https://www.youtube.com/embed/KkIPipSLgao" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer" id="Контакты">
+            <div class="mainwrap">
+                <div class="ft-content">
+                    <div class="frisov">
+                        <img src="img/frisov.png" alt="">
+                        <div class="name-frisov">Михаил Фирсов</div>
+                        <div class="manager-frisov">Менеджер</div>
+                    </div>
+                    <div class="callfrisov">
+                        <div class="fr-title">Остались вопросы?</div>
+                        <p>Оставьте свои данные, мы вам перезвоним</p>
+                        <input type="text" name="" id="" placeholder="Введите ваше имя">
+                        <input type="phone" name="" id="call" placeholder="Введите ваш телефон">
+                        <div class="callfrifov-btn">Позвоните мне</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/jquery.mask.min.js"></script>
+    <script src="https://unpkg.com/swiper/swiper-bundle.js"></script>
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script src="js/script.js"></script>
+
+
+<!-- Code injected by live-server -->
+<script type="text/javascript">
+	// <![CDATA[  <-- For SVG support
+	if ('WebSocket' in window) {
+		(function () {
+			function refreshCSS() {
+				var sheets = [].slice.call(document.getElementsByTagName("link"));
+				var head = document.getElementsByTagName("head")[0];
+				for (var i = 0; i < sheets.length; ++i) {
+					var elem = sheets[i];
+					var parent = elem.parentElement || head;
+					parent.removeChild(elem);
+					var rel = elem.rel;
+					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+					}
+					parent.appendChild(elem);
+				}
+			}
+			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+			var address = protocol + window.location.host + window.location.pathname + '/ws';
+			var socket = new WebSocket(address);
+			socket.onmessage = function (msg) {
+				if (msg.data == 'reload') window.location.reload();
+				else if (msg.data == 'refreshcss') refreshCSS();
+			};
+			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+				console.log('Live reload enabled.');
+				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+			}
+		})();
+	}
+	else {
+		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+	}
+	// ]]>
+</script></body>
+</html>
